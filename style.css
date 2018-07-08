@@ -1,0 +1,53 @@
+/* Homepage StyleSheet */
+
+ body {
+ 	margin: 0px;
+ }
+
+/* Condition: Width greater than 590px */
+@media (min-width : 590px) {
+
+	/* */ 
+	#welcome-message-container {
+		width: 590px;
+	 	margin-left: auto;
+	 	margin-right: auto;
+	 	margin-top: 7%;
+	}
+
+	/* */
+	#welcome-message-logo {
+		
+	}
+
+	/* */
+	#welcome-message-container {
+	 	font-family: 'Open Sans', sans-serif;
+	 	font-size: 20px;
+	}
+
+}
+
+/* Condition: Width less than 589px */
+ @media (max-width : 589px) {
+
+ 	/* */ 
+ 	#welcome-message-container {
+
+ 	}
+
+ 	/* */
+ 	#welcome-message-logo {
+ 		padding-top: 10px;
+ 		padding-left: 10px;
+ 	}
+
+	/* */
+	#welcome-message-container {
+	 	font-family: 'Open Sans', sans-serif;
+	 	font-size: 20px;
+	 	padding-top: 10px;
+ 		padding-left: 10px;
+ 		padding-right: 10px;
+	}
+}
